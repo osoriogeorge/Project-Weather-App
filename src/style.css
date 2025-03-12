@@ -1,0 +1,33 @@
+:root {
+  --primary: #1a5a83;
+  --dark-grey: #4c4c4c;
+  --light-grey: #969696;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  background: linear-gradient(to top, #87cefa, #dadae1) no-repeat;
+}
+
+button {
+  color: white;
+  background-color: var(--primary);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.not-visible {
+  display: none !important;
+}
